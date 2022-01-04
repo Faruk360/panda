@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border-radius: 10px;
 }
 .carousel-inner{
     margin-top: 2%;
@@ -55,9 +54,45 @@
     margin: 10px;
     width: 50%;
 }
-.footer{
-    margin: 40px;
+.categori img:hover{
+    rotate: 360deg;
 }
 .reviw{
     border-radius: none !important;
+    border-radius: none !important;
+}
+.card{
+    border: none;
+    box-shadow: gray 4px 4px 5px;
+    position: relative;
+}
+.card-body{
+    margin-top: 10%;
+}
+.card img{
+    height: 50%;
+}
+.h-100 {
+    height: 85% !important;
+}
+.btn{
+    position: absolute;
+    bottom: 3px;
+    width: 40% !important;
+    background-color: #e84393;
+    color: white;
+}
+.btn::after{
+    content: " >>";
+}
+.reviw{
+    color: #f3c327;
+}
+footer{
+    background: #000;
+    text-align: center;
+    padding: 20px;
+}
+footer span{
+    color: hotpink;
 }
